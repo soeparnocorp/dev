@@ -1,17 +1,17 @@
 {
   "compatibility_date": "2025-10-08",
   "main": "src/index.ts",
-  "name": "developer",
+  "name": "dev",
   "upload_source_maps": true,
   "kv_namespaces": [
     {
-      "binding": "DATA_KV",
+      "binding": "DATABASE_KV",
       "id": "54f89be27a414fabaf381a919403582e"
     }
   ],
   "d1_databases": [
     {
-      "binding": "DATA_DB",
+      "binding": "DATABASE_DB",
       "database_name": "SERVER_D1",
       "database_id": "9c6d47de-7136-494a-96aa-3e16648a4880"
     }
@@ -32,8 +32,8 @@
   "durable_objects": {
     "bindings": [
       {
-        "class_name": "Authentication",
-        "name": "DATA_DO"
+        "class_name": "Auth",
+        "name": "DATABASE_DO"
       },
       {
         "class_name": "Room",
