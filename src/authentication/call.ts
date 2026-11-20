@@ -34,11 +34,11 @@ export class CallHandler {
 				}
 
 				const response = await fetch(
-					`https://rtc.live.cloudflare.com/v1/turn/keys/${this.env.REALTIME_CALL_KEY_ID}/credentials/generate-ice-servers`,
+					`https://rtc.live.cloudflare.com/v1/turn/keys/${this.env.CALL_APP_ID}/credentials/generate-ice-servers`,
 					{
 						method: "POST",
 						headers: {
-							"Authorization": `Bearer ${this.env.REALTIME_CALL_SECRET}`,
+							"Authorization": `Bearer ${this.env.CALL_APP_SECRET}`,
 							"Content-Type": "application/json"
 						},
 						body: JSON.stringify({ ttl: 86400 })
