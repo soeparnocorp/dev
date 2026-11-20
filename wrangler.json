@@ -25,11 +25,11 @@
   },
   "exports": {
     "Authentication": {
-      "type": "durable_object",
+      "type": "durable-object",
       "storage": "sqlite"
     },
     "Room": {
-      "type": "durable_object",
+      "type": "durable-object",
       "storage": "sqlite"
     }
   },
