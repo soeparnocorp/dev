@@ -5,13 +5,13 @@
   "upload_source_maps": true,
   "kv_namespaces": [
     {
-      "binding": "DATABASE_KV",
+      "binding": "DATA_KV",
       "id": "54f89be27a414fabaf381a919403582e"
     }
   ],
   "d1_databases": [
     {
-      "binding": "DATABASE_D1",
+      "binding": "DATA_DB",
       "database_name": "SERVER_D1",
       "database_id": "9c6d47de-7136-494a-96aa-3e16648a4880"
     }
@@ -32,8 +32,8 @@
   "durable_objects": {
     "bindings": [
       {
-        "class_name": "Auth",
-        "name": "DATABASE_DO"
+        "class_name": "Authentication",
+        "name": "DATA_DO"
       },
       {
         "class_name": "Room",
