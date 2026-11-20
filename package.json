@@ -1,5 +1,5 @@
 {
-	"name": "dev",
+	"name": "developer",
 	"description": "Deploy an Authentication Object server on Cloudflare Workers.",
 	"cloudflare": {
 		"label": "Authentication Object",
