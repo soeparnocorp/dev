@@ -1,8 +1,8 @@
 {
 	"name": "developer",
-	"description": "Deploy an Authentication Object server on Cloudflare Workers.",
+	"description": "Deploy an Developer Object server on Cloudflare Workers.",
 	"cloudflare": {
-		"label": "Authentication Object",
+		"label": "Developer Object",
 		"products": [
 			"Workers",
 			"Durable Objects",
