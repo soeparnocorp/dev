@@ -1,8 +1,8 @@
 {
-	"name": "auth",
-	"description": "Deploy an OpenAuth server on Cloudflare Workers.",
+	"name": "dev",
+	"description": "Deploy an Authentication Object server on Cloudflare Workers.",
 	"cloudflare": {
-		"label": "OpenAuth Server",
+		"label": "Authentication Object",
 		"products": [
 			"Workers",
 			"Durable Objects",
